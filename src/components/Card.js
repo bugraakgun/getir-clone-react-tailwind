@@ -7,7 +7,7 @@ function Card() {
   },[])
   return (
     <div className='container mx-auto mt-9'>
-       <div className='grid grid-cols-3 gap-x-4  '>
+       <div className='grid md:grid-cols-3 grid-cols-1 md:gap-x-4 gap-y-4  '>
         {card.length && card.map((c,i) => (
           <div key={i} className=' rounded-lg shadow bg-white p-10 flex flex-col items-center text-center'>
             <img className='w-[150px] h-[150px] mb-6' src={c.image} alt={c.title} />

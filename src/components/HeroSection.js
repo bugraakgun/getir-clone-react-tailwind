@@ -10,6 +10,7 @@ function HeroSection() {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
+    arrows:false,
     speed: 400,
     autoplaySpeed: 3000,
     cssEase: "linear"

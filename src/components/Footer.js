@@ -67,7 +67,7 @@ function Footer() {
   return (
     <div className='bg-white mt-10'>
       <div className='container mx-auto py-10' >
-        <div className='grid grid-cols-[21%_21%_21%_21%_10%] gap-x-6'>
+        <div className='grid xl:grid-cols-[21%_21%_21%_21%_10%] grid-cols-2  gap-x-6'>
           <div className='grid gap-y-4'>
             <h3 className='text-lg text-primary-brand-color'>Getir'i indirin!</h3>
             <a href="https://itunes.apple.com/app/id995280265" >
